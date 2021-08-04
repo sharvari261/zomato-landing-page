@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>Zomato - Largest Food Delivery</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- google search BEM
+    BEM means block element modifier -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar--brand">
+                <img src="assets/logo.png" alt="logo" class="brand--logo">
+            </div>
+            <div class="navbar--nav--items">
+                <div class="nav--item">
+                    <button class="button--primary">Order Food</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero--container">
+            <div class="hero--img--container">
+                <img src="./assets/hero.jpg" alt="heroImg" class="hero--image">
+                <img src="./assets/svg/heroShape.svg" alt="hero image shape" class="hero--img--shape">
+                <img src="./assets/svg/herobgpattren.svg" alt="hero image pattern" class="hero--img--pattern">
+            </div>
+            <div class="hero--description">
+                <h1 class="text--lg">Order food from favourite restaurants near you.</h1>
+                <button class="button--primary">Order Now</button>
+            </div>
+        </section>
+
+        <section class="video--footage--container">
+            <div class="video--footage">
+                <iframe src="https://player.vimeo.com/video/338947907?color=f7f7f7&title=0&byline=0&portrait=0"
+                    width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen class="chef--video"></iframe>
+            </div>
+            <div class="video--footage--text">
+                <p>
+                    Your food will be prepared safely with an experienced chef, without compromising on the quality and
+                    hygiene.
+                </p>
+            </div>
+        </section>
+
+        <section class="food--list--container">
+            <h1 class="text--lg" style="text-align: center;">Explore Our Menu</h1>
+            <div class="food--menu--card--list--diagonal">
+
+            </div>
+            <div class="food--menu--card--list">
+                <!-- card 1 -->
+                <div class="food--menu--card">
+                    <img src="./assets/burger.jpg" alt="Burger image" class="food--menu--card--image">
+                    <div class="food--menu--card--description">
+                        <h4 class="food--menu--card--title">Bugers</h4>
+                        <p class="food--menu--card--restaurants">Burger King, Mcdonalds, Burger Place <span
+                                style="color: red;">+3</span></p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="food--menu--card ">
+                    <img src="./assets/pizza.jpg" alt="Pizza image" class="food--menu--card--image">
+                    <div class="food--menu--card--description">
+                        <h4 class="food--menu--card--title">Pizza</h4>
+                        <p class="food--menu--card--restaurants">Pizza Hut, Domino's Pizza <span
+                                style="color: red;">+3</span></p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="food--menu--card">
+                    <img src="./assets/iceCream.jpg" alt="Icecreame image" class="food--menu--card--image">
+                    <div class="food--menu--card--description">
+                        <h4 class="food--menu--card--title">Ice Creams</h4>
+                        <p class="food--menu--card--restaurants">Baskin Robins, Ibaco <span
+                                style="color: red;">+3</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="restaurant--list--container">
+            <div class="restaurant--list--text">
+                <h1 class="text--lg">
+                    Order From 100s of restaurants
+                </h1>
+            </div>
+            <div class="restaurant--img--container">
+                <div class="restaurant--list--row1">
+                    <img src="./assets/restaurant1.jpg" alt="Restaurant1" class="restaurant1">
+                    <img src="./assets/restaurant2.jpg" alt="Restaurant2" class="restaurant2">
+                </div>
+                <div class="restaurant--list--row2">
+                    <img src="./assets/restaurant3.jpg" alt="Restaurant3" class="restaurant3">
+                    <img src="./assets/restaurant4.jpg" alt="Restaurant4" class="restaurant4">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
